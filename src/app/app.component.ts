@@ -22,7 +22,7 @@ interface ChartTree {
 })
 export class AppComponent implements AfterViewInit {
 
-  constructor(private calculatorService: CalculatorService,
+  constructor(public calculatorService: CalculatorService,
               private router: Router,
               private route: ActivatedRoute) {
     const urlParams = new URLSearchParams(window.location.search);
