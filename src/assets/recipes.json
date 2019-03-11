@@ -1,0 +1,345 @@
+[
+  {
+    "type": "crafting",
+    "steps": 1,
+    "duration": 4,
+    "in": {
+      "Iron Ingot": 2
+    },
+    "out": {
+      "Iron Plate": 1
+    }
+  },
+  {
+    "type": "crafting",
+    "steps": 1,
+    "duration": 4,
+    "in": {
+      "Iron Ingot": 1
+    },
+    "out": {
+      "Iron Rod": 1
+    }
+  },
+  {
+    "type": "crafting",
+    "steps": 1,
+    "duration": 4,
+    "in": {
+      "Copper Ingot": 1
+    },
+    "out": {
+      "Wire": 3
+    }
+  },
+  {
+    "type": "crafting",
+    "steps": 1,
+    "duration": 4,
+    "in": {
+      "Wire": 2
+    },
+    "out": {
+      "Cable": 1
+    }
+  },
+  {
+    "type": "crafting",
+    "steps": 1,
+    "duration": 4,
+    "in": {
+      "Leaves": 10
+    },
+    "out": {
+      "Biomass": 6
+    }
+  },
+  {
+    "type": "crafting",
+    "steps": 1,
+    "duration": 4,
+    "in": {
+      "Wood": 5
+    },
+    "out": {
+      "Biomass": 25
+    }
+  },
+  {
+    "type": "crafting",
+    "steps": 1,
+    "duration": 4,
+    "in": {
+      "Vines": 10
+    },
+    "out": {
+      "Biomass": 15
+    }
+  },
+  {
+    "type": "crafting",
+    "steps": 1,
+    "duration": 4,
+    "in": {
+      "Stone": 3
+    },
+    "out": {
+      "Concrete": 1
+    }
+  },
+  {
+    "type": "crafting",
+    "steps": 1,
+    "duration": 4,
+    "in": {
+      "Iron Rod": 1
+    },
+    "out": {
+      "Screw": 6
+    }
+  },
+  {
+    "type": "crafting",
+    "steps": 1,
+    "duration": 4,
+    "in": {
+      "Biomass": 4
+    },
+    "out": {
+      "Biofuel": 2
+    }
+  },
+  {
+    "type": "crafting",
+    "steps": 3,
+    "duration": 10,
+    "in": {
+      "Green Power Slug": 1
+    },
+    "out": {
+      "Power Shard": 1
+    }
+  },
+  {
+    "type": "crafting",
+    "steps": 4,
+    "duration": 15,
+    "in": {
+      "Yellow Power Slug": 1
+    },
+    "out": {
+      "Power Shard": 2
+    }
+  },
+  {
+    "type": "crafting",
+    "steps": 3,
+    "duration": 10,
+    "in": {
+      "Flower Petals": 25
+    },
+    "out": {
+      "Color Cartridge": 50
+    }
+  },
+  {
+    "type": "crafting",
+    "steps": 1,
+    "duration": 4,
+    "in": {
+      "Steel Ingot": 2
+    },
+    "out": {
+      "Steel Plate": 1
+    }
+  },
+  {
+    "type": "crafting",
+    "steps": 1,
+    "duration": 4,
+    "in": {
+      "Steel Ingot": 1
+    },
+    "out": {
+      "Steel Pipe": 1
+    }
+  },
+  {
+    "type": "crafting",
+    "steps": 2,
+    "duration": 4,
+    "in": {
+      "Iron Rod": 1
+    },
+    "out": {
+      "Spiked Rebar": 1
+    }
+  },
+  {
+    "type": "crafting",
+    "steps": 1,
+    "duration": 4,
+    "in": {
+      "Alien Carapace": 1
+    },
+    "out": {
+      "Biomass": 100
+    }
+  },
+  {
+    "type": "crafting",
+    "steps": 3,
+    "duration": 12,
+    "in": {
+      "Iron Plate": 4,
+      "Screw": 24
+    },
+    "out": {
+      "Reinforced Iron Plate": 1
+    }
+  },
+  {
+    "type": "crafting",
+    "steps": 3,
+    "duration": 10,
+    "in": {
+      "Iron Rod": 3,
+      "Screw": 22
+    },
+    "out": {
+      "Rotor": 1
+    }
+  },
+  {
+    "type": "crafting",
+    "steps": 4,
+    "duration": 15,
+    "in": {
+      "Reinforced Iron Plate": 3,
+      "Iron Rod": 6
+    },
+    "out": {
+      "Modular Frame": 1
+    }
+  },
+  {
+    "type": "crafting",
+    "steps": 4,
+    "duration": 15,
+    "in": {
+      "Steel Plate": 6,
+      "Screw": 36
+    },
+    "out": {
+      "Reinforced Steel Plate": 1
+    }
+  },
+  {
+    "type": "crafting",
+    "steps": 3,
+    "duration": 10,
+    "in": {
+      "Steel Pipe": 3,
+      "Wire": 10
+    },
+    "out": {
+      "Strator": 1
+    }
+  },
+  {
+    "type": "crafting",
+    "steps": 3,
+    "duration": 12,
+    "in": {
+      "Rotor": 2,
+      "Strator": 2
+    },
+    "out": {
+      "Motor": 1
+    }
+  },
+  {
+    "type": "crafting",
+    "steps": 8,
+    "duration": 30,
+    "in": {
+      "Modular Frame": 5,
+      "Steel Pipe": 15,
+      "Reinforced Steel Plate": 5,
+      "Screw": 60
+    },
+    "out": {
+      "Heavy Modular Frame": 1
+    }
+  },
+  {
+    "type": "smelting",
+    "steps": 2,
+    "duration": 2,
+    "in": {
+      "Iron Ore": 2
+    },
+    "out": {
+      "Iron Ingot": 1
+    }
+  },
+  {
+    "type": "smelting",
+    "steps": 2,
+    "duration": 2,
+    "in": {
+      "Copper Ore": 1
+    },
+    "out": {
+      "Copper Ingot": 1
+    }
+  },
+  {
+    "type": "smelting",
+    "steps": 4,
+    "duration": 4,
+    "in": {
+      "Iron Ore": 4,
+      "Coal": 4
+    },
+    "out": {
+      "Steel Ingot": 2
+    }
+  },
+  {
+    "type": "mining",
+    "steps": 2,
+    "duration": 2,
+    "in": {},
+    "out": {
+      "Iron Ore": 1
+    }
+  },
+  {
+    "type": "mining",
+    "steps": 2,
+    "duration": 2,
+    "in": {},
+    "out": {
+      "Copper Ore": 1
+    }
+  },
+  {
+    "type": "mining",
+    "steps": 2,
+    "duration": 2,
+    "in": {},
+    "out": {
+      "Coal": 1
+    }
+  },
+  {
+    "type": "mining",
+    "steps": 2,
+    "duration": 2,
+    "in": {},
+    "out": {
+      "Stone": 1
+    }
+  }
+]

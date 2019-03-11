@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Constructor",
+    "type": "crafting",
+    "inputs": [1],
+    "outputs": 1,
+    "speed": 1,
+    "power": 4
+  },
+  {
+    "name": "Assembler",
+    "type": "crafting",
+    "inputs": [2],
+    "outputs": 1,
+    "speed": 1,
+    "power": 12
+  },
+  {
+    "name": "Manufacturer",
+    "type": "crafting",
+    "inputs": [3, 4],
+    "outputs": 1,
+    "speed": 1,
+    "power": 30
+  },
+  {
+    "name": "Smelter",
+    "type": "smelting",
+    "inputs": [1],
+    "outputs": 1,
+    "speed": 1,
+    "power": 4
+  },
+  {
+    "name": "Foundry",
+    "type": "smelting",
+    "inputs": [2],
+    "outputs": 1,
+    "speed": 1,
+    "power": 12
+  },
+  {
+    "name": "Miner MK1",
+    "type": "mining",
+    "inputs": [0],
+    "outputs": 1,
+    "speed": 1,
+    "power": 5
+  },
+  {
+    "name": "Miner MK2",
+    "type": "mining",
+    "inputs": [0],
+    "outputs": 1,
+    "speed": 2,
+    "power": 10
+  }
+]

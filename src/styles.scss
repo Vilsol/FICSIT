@@ -1,1 +1,52 @@
 /* You can add global styles to this file, and also import other style files */
+html, body {
+  background: #3a3a3a;
+}
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 3px;
+}
+.node text {
+  font: 14px sans-serif;
+  fill: #ffffff;
+  text-shadow: 1px 1px 5px black;
+}
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 3px;
+  &.link-yellow {
+    stroke: #efe9a1;
+  }
+  &.link-red {
+    stroke: #efa1a1;
+  }
+  &.link-blue {
+    stroke: #a1c7ef;
+  }
+  &.link-bold {
+    stroke-width: 6px;
+  }
+}
+#tooltip {
+  position: absolute;
+  text-align: left;
+  width: 200px;
+  height: 110px;
+  padding: 6px;
+  font: 12px sans-serif;
+  background: #222;
+  border: 2px solid #555;
+  opacity: 0.8;
+  pointer-events: none;
+  color: #fff;
+}
+svg {
+  transition: box-shadow 0.1s, background-color 0.1s;
+}
+svg:hover {
+  // box-shadow: 0 0 16px 3px #888888;
+  // background-color: #464646;
+}
