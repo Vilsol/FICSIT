@@ -1,0 +1,25 @@
+<div style="text-align: center; width: 100%; margin-top: 30px">
+  <img src="/assets/images/ficsit_logo.png" style="width: 30vw" />
+</div>
+
+<div style="display: flex; flex-direction: column; align-items: center; margin: 30px 0">
+  <div>
+    <mat-form-field style="margin-right: 30px;">
+      <mat-select placeholder="Select Item" [(ngModel)]="itemName">
+        <mat-option *ngFor="let item of calculatorService.items" [value]="item">
+          {{ item }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <input matInput placeholder="Item Count" type="number" [(ngModel)]="itemCount">
+    </mat-form-field>
+  </div>
+</div>
+
+<br>
+<div style="width: 100%" id="svgparent">
+  <svg style="width: 100%" id="svg"></svg>
+</div>
+<div id="tooltip" style="opacity: 0;"></div>

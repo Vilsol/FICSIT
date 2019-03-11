@@ -1,10 +1,11 @@
 import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
 
-import {AppComponent} from './app.component';
+import {AppComponent} from './components/app/app.component';
 import {CalculatorService} from './services/calculator.service';
-import {FormsModule} from '@angular/forms';
 import {RouterModule} from '@angular/router';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {MatToolbarModule} from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -12,8 +13,14 @@ import {RouterModule} from '@angular/router';
   ],
   imports: [
     BrowserModule,
-    FormsModule,
-    RouterModule.forRoot([])
+    RouterModule.forRoot([
+      {
+        path: '',
+        loadChildren: './modules/home/home.module#HomeModule'
+      }
+    ]),
+    BrowserAnimationsModule,
+    MatToolbarModule
   ],
   providers: [
     CalculatorService

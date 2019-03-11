@@ -1,4 +1,4 @@
-# FICSIT
+# FICSIT [![Netlify Status](https://api.netlify.com/api/v1/badges/0542b4a7-d479-4c90-987d-b656e210ce50/deploy-status)](https://app.netlify.com/sites/unruffled-hoover-6c1c7f/deploys)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.3.
 

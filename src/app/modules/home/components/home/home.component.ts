@@ -1,7 +1,7 @@
-import {AfterViewInit, Component} from '@angular/core';
-import {CalculatorService, Machine, Recipe, RecipeTree} from './services/calculator.service';
-import * as d3 from 'd3';
+import {AfterViewInit, Component, OnInit} from '@angular/core';
+import {CalculatorService, Machine, Recipe, RecipeTree} from '../../../../services/calculator.service';
 import {ActivatedRoute, Router} from '@angular/router';
+import * as d3 from 'd3';
 
 const max_belt_mk = 6;
 
@@ -16,11 +16,11 @@ interface ChartTree {
 }
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  selector: 'app-home',
+  templateUrl: './home.component.html',
+  styleUrls: ['./home.component.scss']
 })
-export class AppComponent implements AfterViewInit {
+export class HomeComponent implements AfterViewInit {
 
   constructor(public calculatorService: CalculatorService,
               private router: Router,
@@ -122,7 +122,7 @@ export class AppComponent implements AfterViewInit {
 
     const svg = d3.select('svg');
 
-    svg.attr('height', window.innerHeight - 100);
+    svg.attr('height', window.innerHeight - 200);
     d3.select('#svgparent').attr('style', 'width: 100%; height:' + svg.attr('height') + 'px');
     svg.selectAll('*').remove();
 

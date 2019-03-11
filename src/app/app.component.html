@@ -1,9 +1,0 @@
-<select [(ngModel)]="itemName">
-  <option *ngFor="let item of calculatorService.items" [value]="item">{{ item }}</option>
-</select>
-<input type="number" [(ngModel)]="itemCount"/>
-<br>
-<div style="width: 100%" id="svgparent">
-  <svg style="width: 100%" id="svg"></svg>
-</div>
-<div id="tooltip" style="opacity: 0;"></div>
