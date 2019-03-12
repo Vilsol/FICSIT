@@ -299,11 +299,34 @@
     "steps": 4,
     "duration": 4,
     "in": {
+      "Caterium Ore": 4
+    },
+    "out": {
+      "Caterium Ingot": 1
+    }
+  },
+  {
+    "type": "smelting",
+    "steps": 4,
+    "duration": 4,
+    "in": {
       "Iron Ore": 4,
       "Coal": 4
     },
     "out": {
       "Steel Ingot": 2
+    }
+  },
+  {
+    "type": "smelting",
+    "steps": 4,
+    "duration": 4,
+    "in": {
+      "Bauxite": 7,
+      "Silica": 6
+    },
+    "out": {
+      "Aluminum Ingot": 2
     }
   },
   {
@@ -340,6 +363,292 @@
     "in": {},
     "out": {
       "Stone": 1
+    }
+  },
+  {
+    "type": "mining",
+    "steps": 2,
+    "duration": 2,
+    "in": {},
+    "out": {
+      "Raw Quartz": 1
+    }
+  },
+  {
+    "type": "mining",
+    "steps": 2,
+    "duration": 2,
+    "in": {},
+    "out": {
+      "Caterium Ore": 1
+    }
+  },
+  {
+    "type": "mining",
+    "steps": 2,
+    "duration": 2,
+    "in": {},
+    "out": {
+      "Uranium": 1
+    }
+  },
+  {
+    "type": "mining",
+    "steps": 2,
+    "duration": 2,
+    "in": {},
+    "out": {
+      "Bauxite": 1
+    }
+  },
+  {
+    "type": "mining",
+    "steps": 2,
+    "duration": 2,
+    "in": {},
+    "out": {
+      "Limestone": 1
+    }
+  },
+  {
+    "type": "pumping",
+    "steps": 2,
+    "duration": 2,
+    "in": {},
+    "out": {
+      "Crude Oil": 1
+    }
+  },
+  {
+    "type": "refining",
+    "steps": 2,
+    "duration": 8,
+    "in": {
+      "Crude Oil": 4
+    },
+    "out": {
+      "Plastic": 3
+    }
+  },
+  {
+    "type": "refining",
+    "steps": 2,
+    "duration": 8,
+    "in": {
+      "Crude Oil": 8
+    },
+    "out": {
+      "Fuel": 5
+    }
+  },
+  {
+    "type": "refining",
+    "steps": 2,
+    "duration": 8,
+    "in": {
+      "Crude Oil": 4
+    },
+    "out": {
+      "Rubber": 4
+    }
+  },
+  {
+    "type": "crafting",
+    "steps": 3,
+    "__TODO": 1,
+    "duration": 30,
+    "in": {
+      "Wire": 12,
+      "Plastic": 6
+    },
+    "out": {
+      "Circuit Board": 1
+    }
+  },
+  {
+    "type": "crafting",
+    "steps": 8,
+    "duration": 32,
+    "in": {
+      "Circuit Board": 5,
+      "Cable": 12,
+      "Plastic": 18,
+      "Screw": 60
+    },
+    "out": {
+      "Computer": 1
+    }
+  },
+  {
+    "type": "crafting",
+    "__TODO": 1,
+    "steps": 2,
+    "duration": 24,
+    "in": {
+      "Heat Sink": 4,
+      "Rubber": 24,
+      "Crystal Oscillator": 1,
+      "Computer": 1
+    },
+    "out": {
+      "Radio Control Unit": 1
+    }
+  },
+  {
+    "type": "crafting",
+    "__TODO": 1,
+    "steps": 2,
+    "duration": 32,
+    "in": {
+      "Heat Sink": 4,
+      "Radio Control Unit": 2,
+      "Motor": 4,
+      "Rubber": 40
+    },
+    "out": {
+      "Turbo Motor": 1
+    }
+  },
+  {
+    "type": "crafting",
+    "__TODO": 1,
+    "steps": 2,
+    "duration": 32,
+    "in": {
+      "Aluminum Sheet": 8,
+      "Wire": 24,
+      "Sulfur": 20,
+      "Plastic": 9
+    },
+    "out": {
+      "Battery": 3
+    }
+  },
+  {
+    "type": "crafting",
+    "__TODO": 1,
+    "steps": 2,
+    "duration": 32,
+    "in": {
+      "Supercomputer": 2,
+      "Radio Control Unit": 2,
+      "Superposition Oscillator": 2,
+      "Plastic": 15
+    },
+    "out": {
+      "Quantum Computer": 1
+    }
+  },
+  {
+    "type": "crafting",
+    "__TODO": 1,
+    "steps": 2,
+    "duration": 50,
+    "in": {
+      "Uranium": 50
+    },
+    "out": {
+      "Nuclear Fuel Rod": 1
+    }
+  },
+  {
+    "type": "crafting",
+    "__TODO": 1,
+    "steps": 2,
+    "duration": 4,
+    "in": {
+      "Aluminum Ingot": 1
+    },
+    "out": {
+      "Aluminum Sheet": 1
+    }
+  },
+  {
+    "type": "crafting",
+    "__TODO": 1,
+    "steps": 2,
+    "duration": 12,
+    "in": {
+      "Aluminum Sheet": 4,
+      "Rubber": 10
+    },
+    "out": {
+      "Heat Sink": 1
+    }
+  },
+  {
+    "type": "crafting",
+    "steps": 1,
+    "duration": 4,
+    "in": {
+      "Caterium Ingot": 1
+    },
+    "out": {
+      "Quickwire": 4
+    }
+  },
+  {
+    "type": "crafting",
+    "steps": 1,
+    "duration": 5,
+    "in": {
+      "Coal": 5,
+      "Rubber": 2,
+      "Fabric": 2
+    },
+    "out": {
+      "Filter": 1
+    }
+  },
+  {
+    "type": "crafting",
+    "steps": 8,
+    "duration": 32,
+    "in": {
+      "Computer": 5,
+      "A.I. Limiter": 2,
+      "High-Speed Connector": 3,
+      "Plastic": 21
+    },
+    "out": {
+      "Supercomputer": 1
+    }
+  },
+  {
+    "type": "crafting",
+    "steps": 6,
+    "duration": 24,
+    "in": {
+      "Quickwire": 40,
+      "Cable": 10,
+      "Plastic": 6
+    },
+    "out": {
+      "High-Speed Connector": 1
+    }
+  },
+  {
+    "type": "crafting",
+    "steps": 3,
+    "duration": 12,
+    "in": {
+      "Quickwire": 18,
+      "Circuit Board": 6
+    },
+    "out": {
+      "A.I. Limiter": 1
+    }
+  },
+  {
+    "type": "crafting",
+    "steps": 1,
+    "duration": 4,
+    "in": {
+      "Mycelia": 1,
+      "Leaves": 2
+    },
+    "out": {
+      "Fabric": 1
     }
   }
 ]

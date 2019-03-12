@@ -1,6 +1,6 @@
 [
   {
-    "name": "Constructor",
+    "name": "Constructor MK1",
     "type": "crafting",
     "inputs": [1],
     "outputs": 1,
@@ -8,23 +8,47 @@
     "power": 4
   },
   {
-    "name": "Assembler",
+    "name": "Constructor MK2",
+    "type": "crafting",
+    "inputs": [1],
+    "outputs": 1,
+    "speed": 2,
+    "power": 8
+  },
+  {
+    "name": "Assembler MK1",
     "type": "crafting",
     "inputs": [2],
     "outputs": 1,
     "speed": 1,
-    "power": 12
+    "power": 15
   },
   {
-    "name": "Manufacturer",
+    "name": "Assembler MK2",
+    "type": "crafting",
+    "inputs": [2],
+    "outputs": 1,
+    "speed": 2,
+    "power": 35
+  },
+  {
+    "name": "Manufacturer MK1",
     "type": "crafting",
     "inputs": [3, 4],
     "outputs": 1,
     "speed": 1,
-    "power": 30
+    "power": 55
   },
   {
-    "name": "Smelter",
+    "name": "Manufacturer MK2",
+    "type": "crafting",
+    "inputs": [3, 4],
+    "outputs": 1,
+    "speed": 2,
+    "power": 120
+  },
+  {
+    "name": "Smelter MK1",
     "type": "smelting",
     "inputs": [1],
     "outputs": 1,
@@ -32,12 +56,28 @@
     "power": 4
   },
   {
-    "name": "Foundry",
+    "name": "Smelter MK2",
+    "type": "smelting",
+    "inputs": [1],
+    "outputs": 1,
+    "speed": 2,
+    "power": 8
+  },
+  {
+    "name": "Foundry MK1",
     "type": "smelting",
     "inputs": [2],
     "outputs": 1,
     "speed": 1,
-    "power": 12
+    "power": 16
+  },
+  {
+    "name": "Foundry MK2",
+    "type": "smelting",
+    "inputs": [2],
+    "outputs": 1,
+    "speed": 2,
+    "power": 38
   },
   {
     "name": "Miner MK1",
@@ -53,6 +93,46 @@
     "inputs": [0],
     "outputs": 1,
     "speed": 2,
-    "power": 10
+    "power": 12
+  },
+  {
+    "name": "Miner MK3",
+    "type": "mining",
+    "inputs": [0],
+    "outputs": 1,
+    "speed": 4,
+    "power": 30
+  },
+  {
+    "name": "Oil Pump",
+    "type": "pumping",
+    "inputs": [0],
+    "outputs": 1,
+    "speed": 1,
+    "power": 40
+  },
+  {
+    "name": "Oil Refinery",
+    "type": "refining",
+    "inputs": [1],
+    "outputs": 1,
+    "speed": 1,
+    "power": 50
+  },
+  {
+    "name": "Hadron Collider",
+    "type": "colliding",
+    "inputs": [0],
+    "outputs": 1,
+    "speed": 1,
+    "power": 750
+  },
+  {
+    "name": "Quantum Encoder",
+    "type": "quantum-encoding",
+    "inputs": [2],
+    "outputs": 1,
+    "speed": 1,
+    "power": 90
   }
 ]

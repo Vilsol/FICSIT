@@ -25,7 +25,7 @@ html, body {
   stroke-width: 3px;
 }
 
-.node text {
+.node text, .node-text {
   font: 14px sans-serif;
   fill: #ffffff;
   text-shadow: 1px 1px 5px black;
